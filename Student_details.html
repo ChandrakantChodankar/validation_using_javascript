@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script type="text/javascript" src="script1.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body align="center">
+        <h1>Student Details</h1>
+        <form onsubmit="return validation()">
+            <!-- text field -->
+            <label>First name</label><br>
+            <input type="text" id="fname">
+            <br>
+            <label>Middle name</label><br>
+            <input type="text" id="mname">
+            <br>
+            <label>Last name</label><br>
+            <input type="text" id="lname">
+            <br><br>
+
+            <!-- Radio button -->
+            <label>Select Gender</label>
+            <br>
+            <input type="radio" id="male" name="gender" value="male">Male
+            <br><input type="radio" id="female" name="gender" value="female">Female
+            <br><br>
+
+            <!-- date of bith -->
+            <label>Enter Date of Birth</label>
+            <br>
+            <input type="date" id="dob" value="">
+            <br><br>
+
+            <!-- Radio button -->
+            <label>Branch</label>
+            <br>
+            <input type="radio" id="comp" name="branch" value="Computer Engineering">Computer Engineering
+            <br>
+            <input type="radio" id="ece" name="branch" value="Electronics And Communication Engineering">Electronics and
+            Communication Engineering
+            <br>
+            <input type="radio" id="mech" name="branch" value="Mechanical Engineering">Mechanical Engineering
+            <br>
+            <input type="radio" id="civil" name="branch" value="Civil Engineering">Civil Engineering
+            <br><br>
+
+            <!-- Checkbox -->
+            <label>Choose Language</label>
+            <br>
+            <input type="checkbox" id="eng" name="language" value="English">English
+            <br><input type="checkbox" id="hin" name="language" value="Hindi">Hindi
+            <br><input type="checkbox" id="mar" name="language" value="Marathi">Marathi
+            <br><input type="checkbox" id="kon" name="language" value="Konkani">Konkani
+            <br><br>
+
+            <!-- drop down list -->
+            <label>Select Your State</label>
+            <br>
+            <select id="state">
+                <option></option>
+                <option value="uk">Uttarakhand</option>
+                <option value="delhi">Delhi</option>
+                <option value="goa">Goa</option>
+                <option value="maharastra">Maharastra</option>
+                <option value="karnataka">karnataka</option>
+                <option value="kerela">kerela</option>
+            </select>
+            <br><br>
+
+            <label>Enter Semester </label>
+            <input type="number" id="sem" name="semester" min="2" max="8">
+            <br><br>
+
+            <!-- Email -->
+            <label>Enter your college Email id</label><br>
+            <input type="email" id="ema">
+            <br><br>
+
+            <!-- Password -->
+            <label>Enter your password</label><br>
+            <input type="password" id="pass">
+            <br><br>
+
+            <!-- File -->
+            <label>Select file</label>
+            <input type="file" id="upload" name="upload">
+            <br><br>
+
+            <input type="reset"><span></span>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+
+</html>
