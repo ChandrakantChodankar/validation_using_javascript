@@ -1,0 +1,86 @@
+body {
+    background-color: powderblue;
+}
+
+h2 {
+    color: red;
+}
+
+label {
+    color: blue;
+}
+
+input[type=text] {
+    width: 21%;
+    padding: 5px 10px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: rgb(224, 203, 203);
+}
+
+input[type=number] {
+    width: 5%;
+    padding: 4px 8px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: rgb(247, 229, 152);
+}
+
+input[type=password] {
+    width: 20%;
+    padding: 4px 8px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color: rgb(255, 231, 126);
+}
+
+input[type=email] {
+    width: 20%;
+    padding: 4px 8px;
+    margin: 2px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 38, 0);
+    border-radius: 5px;
+    background-color: rgb(247, 229, 152);
+}
+
+input[type=reset] {
+    color: white;
+    background-color: red;
+    border: 2px solid rgb(14, 98, 146);
+    box-sizing: border-box;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    color: white;
+    background-color: green;
+    border: 2px solid rgb(14, 136, 136);
+    box-sizing: border-box;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+select {
+    width: 20%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(44, 138, 175, 0.548);
+}
+
+input[type=date] {
+    background-color: lightgreen;
+}
+
+input[type=file] {
+    background-color: rgb(18, 206, 96);
+}
